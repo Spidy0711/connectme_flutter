@@ -1,16 +1,27 @@
-# connetme
+# ConnectMe Flutter App
 
-A new Flutter project.
+A Flutter application to explore user profiles fetched from [RandomUser API](https://randomuser.me/api/).  
+Built with **Bloc**, **Clean Architecture**, and **Responsive Design**.
 
-## Getting Started
+## Features
+- Display 20 user profiles in a grid layout
+- View profile details with Hero image transition
+- Like/unlike profiles with synchronized state across screens
+- Filter profiles by country
+- Pull-to-refresh
+- Heart icon animation
+- Responsive layout for multiple screen sizes
+- Custom Gotham font
 
-This project is a starting point for a Flutter application.
+## Architecture
+- **Data Layer:** Models and Repository
+- **Domain Layer:** Entities
+- **Presentation Layer:** Bloc, Screens, Widgets
+- **State Management:** Bloc
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+```bash
+git clone https://github.com/yourusername/connectme_flutter.git
+cd connectme_flutter
+flutter pub get
+flutter run
