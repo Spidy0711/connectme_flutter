@@ -32,7 +32,7 @@ Bloc States:
 2. UserLoaded – Contains user list & liked set
 3. UserError – Displays error message
 
-#Tech Stack
+# Tech Stack
 
 1. Flutter: 3.32.6
 2. State Management: flutter_bloc ^9.1.1
@@ -42,29 +42,32 @@ Bloc States:
 
 Fonts/UI: Custom Gotham font
 
- # Project Structure
-
-lib/
-├── data/
-│   ├── models/        # UserModel
-│   └── repositories/  # UserRepository
-├── domain/
-│   └── entities/      # It contains UserEntity
-├── presentation/
-│   ├── bloc/          # It contains UserBloc, UserEvent, UserState
-│   ├── screens/       # It contains HomeScreen, ProfileDetailsScreen
-│   └── widgets/       # It contains UserCard
-└── main.dart
-
-assets/
-└── fonts/
-    └── bold.otf       # Gotham font
+# Project Structure
 
 screenshots/
-└── home_screen.jpg
-└── profile_screen.jpg
-└── filtered_profile.jpg
+├── home_screen.jpg
+├── profile_screen.jpg
+├── filtered_profile.jpg
 └── country_filter.jpg
+
+lib/
+├── assets/
+│   └── fonts/
+│       └── bold.otf                # Gotham font
+│
+├── data/
+│   ├── models/                     # UserModel
+│   └── repositories/               # UserRepository
+│
+├── domain/
+│   └── entities/                   # UserEntity
+│
+├── presentation/
+│   ├── bloc/                       # UserBloc, UserEvent, UserState
+│   ├── screens/                    # HomeScreen, ProfileDetailsScreen
+│   └── widgets/                    # UserCard
+│
+└── main.dart
 
 # Installation
 
@@ -77,6 +80,10 @@ flutter run
 
 1. Requires internet; offline caching not implemented yet
 2. Pull-to-refresh resets selected country filter
+
+# LICENSE
+
+This project is licensed under the MIT License. See the LICENSE file for details.
 
 # Contact
 
