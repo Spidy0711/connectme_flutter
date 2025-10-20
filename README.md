@@ -1,4 +1,8 @@
 ConnectMe Flutter App
+![Flutter](https://img.shields.io/badge/Flutter-3.32.6-blue)
+![BLoC](https://img.shields.io/badge/State%20Management-BLoC-yellow)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20Web-orange)
 
 A student-friendly Flutter app to explore user profiles fetched from RandomUser API.
 Built with Bloc, Clean Architecture, and Responsive Design.
