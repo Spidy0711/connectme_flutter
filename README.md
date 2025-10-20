@@ -5,14 +5,14 @@ Built with Bloc, Clean Architecture, and Responsive Design.
 
 # Features
 
-1. Fetch and display 20 random user profiles in a grid layout
-2. Tap a profile to view details with Hero image transition
-3. Like/unlike profiles – state stays synced between Home and Profile screens
-4. Filter profiles by country
-5. Pull-to-refresh for updated profiles
-6. Heart icon animation for likes
-7.Custom Gotham font applied across the app
-8.Loading & error states handled gracefully
+1. Fetch and display 20 random user profiles in a grid layout.
+2. Tap a profile to view details with Hero image transition.
+3. Like/unlike profiles – state stays synced between Home and Profile screens.
+4. Filter profiles by country.
+5. Pull-to-refresh for updated profiles.
+6. Heart icon animation for likes.
+7. Custom Gotham font applied across the app.
+8. Loading & error states handled gracefully
 
 # Architecture
 
